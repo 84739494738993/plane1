@@ -23,11 +23,11 @@ var fly = new Audio();
 var red_break = new Audio();
 var blue_break = new Audio();
 var samolet_fall = new Audio();
-fly.src = "audio/plane.mp3";
-red_break.src = "audio/bach.mp3";
+fly.src = "https://github.com/84739494738993/plane1/blob/main/plane.mp3";
+red_break.src = "https://github.com/84739494738993/plane1/blob/main/audio/bach.mp3";
 fly.loop=true;
-blue_break.src = "audio/blue_break.mp3";
-samolet_fall.src = "audio/samolet.mp3";
+blue_break.src = "https://github.com/84739494738993/plane1/blob/main/blue_break.mp3";
+samolet_fall.src = "https://github.com/84739494738993/plane1/blob/main/samolet.mp3";
 
 function resetGame() {
   game = {
